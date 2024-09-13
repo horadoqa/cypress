@@ -8,4 +8,4 @@ Site: https://www.cypress.io/
 
 Exemplos: https://example.cypress.io/
 
-Proximos passos... [Instalação](install.md)
+Proximos passos... [Instalação](./docs/install.md)
