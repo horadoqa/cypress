@@ -28,4 +28,4 @@ npm --version
 v20.17.0
 ```
 
-Proximos passos... [Instalando o Cypress](cypress.md)
+Próximos passos... [Instalando o Cypress](cypress.md)

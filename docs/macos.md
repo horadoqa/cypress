@@ -22,3 +22,4 @@ https://formulae.brew.sh/formula/node
 brew install node
 ```
 
+Próximos passos... [Instalando o Cypress](cypress.md)

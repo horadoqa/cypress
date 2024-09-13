@@ -15,4 +15,4 @@ Selecionar a versão, Sistema Operacional e processador
 
 Procurar pelo Node.Js Command Prompt
 
-Proximos passos... [Instalando o Cypress](cypress.md)
+Próximos passos... [Instalando o Cypress](cypress.md)
