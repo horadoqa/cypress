@@ -1,9 +1,9 @@
 describe('Site do Alura Cursos', () => {
    
-  it('alura', () => {
+  it('Site do Alura Cursos', () => {
     
     cy.visit('https://www.alura.com.br');
-    cy.contains('h2', 'Inteligência Artificial').click({force: true});
+    cy.get('div.categories__wrapper--home.--inteligencia-artificial').click();
 
   })
 
