@@ -1,5 +1,5 @@
 describe('Cypress', () => {
     it('passes', () => {
-      cy.visit('https://www.globo.com')
+      cy.visit('https://www.cypress.io')
     })
   })

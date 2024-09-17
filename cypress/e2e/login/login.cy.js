@@ -1,5 +1,5 @@
 it('user should be able to log in', () => {
-  cy.visit('/login')
+  cy.visit('https://horadoqa.github.io/site/testes')
 
   // fill in the form
   cy.get('input[type="email"]').type('test@test.com')

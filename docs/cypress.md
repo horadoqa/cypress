@@ -90,7 +90,9 @@ npm init -y
 Executando via CLI sem acesso ao Browser
 
 ```bash
-npx cypress run 
+npx cypress run --spec 'path/to/files/file.cy.js'
+
+npx cypress run --spec cypress/e2e/alura/alura.cy.js
 ```
 
 ## Extensão no VSCODE
