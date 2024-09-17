@@ -87,6 +87,12 @@ Iniciando o projeto
 npm init -y
 ```
 
+Executando via CLI sem acesso ao Browser
+
+```bash
+npx cypress run 
+```
+
 ## Extensão no VSCODE
 
 Cypress Snippets v2
