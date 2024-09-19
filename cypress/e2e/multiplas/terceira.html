@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terceira Página</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bem-Vindo</h1>
+
+    <div class="container"> 
+    <h1>Bem-Vindo a Terceira Página</h1>
 
     <p>Essa é a Terceira Página</p>
 
-    <button id="botao-nova-janela">Abrir Nova Janela</button>
-
+    <button id="botao-nova-janela">Abrir nova janela</button>
+    </div>
     <script>
         document.getElementById('botao-nova-janela').addEventListener('click', function () {
             window.open('quarta.html', 'nomeDaJanela', 'width=600, height=400');

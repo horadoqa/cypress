@@ -1,5 +1,4 @@
 describe("Teste de Navegação", () => {
-  context("Navegação", () => {
     
     it("Da primeira para a segunda página", () => {
       
@@ -17,12 +16,14 @@ describe("Teste de Navegação", () => {
       cy.contains("Bem-vindo à Segunda Página").should("exist");
       cy.get('[id="campo-de-texto"]').should("exist").type("Testando");
       cy.wait(300);
-       // Caso o elemento tenha TARGET, remover para abrir nova página 
+      
+      // Caso o elemento tenha TARGET, remover para abrir nova página 
       cy.contains("Abrir Terceira Página")
         .invoke("removeAttr", "target")
         .click();
+
       cy.contains("p", "Essa é a Terceira Página").should("be.visible");
-  
+
     });
     
      it("Da terceira para a quarta página", () => {
@@ -35,7 +36,7 @@ describe("Teste de Navegação", () => {
         });
       });
       cy.wait(300);
-      cy.contains("Abrir Nova Janela").click();
+      cy.contains("Abrir nova janela").click();
 
      });
 
@@ -46,5 +47,4 @@ describe("Teste de Navegação", () => {
       cy.wait(300);
      
     });
-  });
 });
