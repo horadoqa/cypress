@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceira Página</title>
+</head>
+<body>
+    <h1>Bem-Vindo</h1>
+
+    <p>Essa é a Terceira Página</p>
+
+    <button id="botao-nova-janela">Abrir Nova Janela</button>
+
+    <script>
+        document.getElementById('botao-nova-janela').addEventListener('click', function () {
+            window.open('quarta.html', 'nomeDaJanela', 'width=600, height=400');
+        });
+    </script>
+    
+</body>
+</html>
