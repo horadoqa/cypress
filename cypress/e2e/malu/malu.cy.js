@@ -1,9 +1,9 @@
 describe('malu', () => {
 
-    it('passes', () => {
+    it('Acessando o site', () => {
       cy.visit('https://ri.magazineluiza.com.br')
 
-      cy.get('#Form1', { timeout: 10000 }).contains('Informações Financeiras').eq(0).click({force: true});
+      cy.get('#Form1').contains('Informações Financeiras').eq(0).click({force: true});
 
       cy.get('button').contains('Informações Financeiras').click({force: true});
 
