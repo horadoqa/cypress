@@ -12,9 +12,6 @@ describe('Testes com Chance.js e Cypress', () => {
     // Gera um telefone aleatório
     const telefoneAleatorio = chance.phone();
 
-    // Gera um endereço aleatório
-    const enderecoAleatorio = chance.address();
-
     // Acessa a página do formulário
     cy.visit('https://horadoqa.github.io/site/testes/');
 
