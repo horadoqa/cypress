@@ -38,7 +38,8 @@ describe('Testes com Chance.js e Cypress', () => {
     cy.visit('https://horadoqa.github.io/site/testes/');
 
     // Preenche o formulário com os dados aleatórios gerados
-    cy.get(*[@id="select-itens"]/option[2]).click();
+    cy.get('*[@id="select-itens"]/option[2]').click();
+
     cy.get('input[name="nome"]').type(nomeAleatorio);
     cy.get('input[name="email"]').type(emailAleatorio);
     cy.get('input[name="area"]').type(emailAleatorio);
