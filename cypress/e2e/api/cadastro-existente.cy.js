@@ -3,7 +3,7 @@ describe('Testes API - Usuários', () => {
     const baseUrl = 'https://serverest.dev/usuarios';
   
     // Envia uma requisição para criar um novo usuário e verifica se o status é 201, que indica que o recurso foi criado com sucesso.
-    it('Deve receber a informação que usuári já está cadastrado, retornando Status Code 400', () => {
+    it('Deve receber a informação que usuário já está cadastrado, retornando Status Code 400', () => {
       const novoUsuario = {
         nome: "Hora do QA",
         email: "horadoqa@teste.com",

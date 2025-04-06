@@ -13,6 +13,5 @@ describe('Testes API - Usuários', () => {
         expect(response.body.usuarios).to.be.an('array');
       });
     });
-  
 });
   
